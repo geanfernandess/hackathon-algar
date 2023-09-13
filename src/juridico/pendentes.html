@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>JuriCodeX</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="../../css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <img class="img-profile rounded-circle mx-auto" src="./assets/img/">
+                            <div class="sb-sidenav-menu-heading mx-auto">Informações Cliente</div>
+                            <a class="nav-link" href="dashboard.html ">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Dashboard
+                            </a>
+                            <a class="nav-link" href="pendentes.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Pendentes
+                            </a>
+                            <a class="nav-link" href="analytics.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Analytics
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <!-- <h1 class="mt-4">Aceites Pendentes</h1> -->
+                        
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Aceites Pendentes
+                            </div>
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th>N° Contrato</th>
+                                            <th>Valor</th>
+                                            <th>Data</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th>N° Contrato</th>
+                                            <th>Valor</th>
+                                            <th>Data</th>
+                                            <th></th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                          <td>Tiago Silva</td>
+                                          <td>61</td>
+                                          <td>R$320.800</td>
+                                          <td>25/04/2011</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Luciana Oliveira</td>
+                                          <td>63</td>
+                                          <td>R$170.750</td>
+                                          <td>25/07/2011</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Felipe Santos</td>
+                                          <td>66</td>
+                                          <td>R$86.000</td>
+                                          <td>12/01/2009</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Carla Souza</td>
+                                          <td>22</td>
+                                          <td>R$433.060</td>
+                                          <td>29/03/2012</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Marcos Costa</td>
+                                          <td>33</td>
+                                          <td>R$162.700</td>
+                                          <td>28/11/2008</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Renata Lima</td>
+                                          <td>61</td>
+                                          <td>R$372.000</td>
+                                          <td>02/12/2012</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Eduardo Pereira</td>
+                                          <td>59</td>
+                                          <td>R$137.500</td>
+                                          <td>06/08/2012</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mariana Fernandes</td>
+                                          <td>55</td>
+                                          <td>R$327.900</td>
+                                          <td>14/10/2010</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Fernando Alves</td>
+                                          <td>39</td>
+                                          <td>R$205.500</td>
+                                          <td>15/09/2009</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Sabrina Barbosa</td>
+                                          <td>23</td>
+                                          <td>R$103.600</td>
+                                          <td>13/12/2008</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Ricardo Oliveira</td>
+                                          <td>30</td>
+                                          <td>R$90.560</td>
+                                          <td>19/12/2008</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Larissa Costa</td>
+                                          <td>22</td>
+                                          <td>R$342.000</td>
+                                          <td>03/03/2013</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Isabela Souza</td>
+                                          <td>36</td>
+                                          <td>R$470.600</td>
+                                          <td>16/10/2008</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Roberto Santos</td>
+                                          <td>43</td>
+                                          <td>R$313.500</td>
+                                          <td>18/12/2012</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Luisa Fernandes</td>
+                                          <td>19</td>
+                                          <td>R$385.750</td>
+                                          <td>17/03/2010</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Pedro Lima</td>
+                                          <td>66</td>
+                                          <td>R$198.500</td>
+                                          <td>27/11/2012</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Ana Rodrigues</td>
+                                          <td>64</td>
+                                          <td>R$725.000</td>
+                                          <td>09/06/2010</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Fernando Silva</td>
+                                          <td>59</td>
+                                          <td>R$237.500</td>
+                                          <td>10/04/2009</td>
+                                          <td class="text-center">
+                                            <div class="d-flex justify-content-center">
+                                              <a href="contrato.html">detalhar contrato</a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted mx-auto">Copyright &copy; JurisCodeX 2023</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="../../js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        
+        <script>
+            
+            window.addEventListener('DOMContentLoaded', event => {
+
+            const datatablesSimple = document.getElementById('datatablesSimple');
+            if (datatablesSimple) {
+                new simpleDatatables.DataTable(datatablesSimple, {
+                perPage: 10,
+                labels: {
+                    placeholder: 'Pesquisar...',
+                    perPage: 'registros por página',
+                    noRows: 'Nenhum registro encontrado',
+                    info: '{start} até {end} de {rows} registros',
+                }
+                });
+            }
+            });
+
+        </script>
+    </body>
+</html>
